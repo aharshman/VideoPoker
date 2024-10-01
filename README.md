@@ -32,22 +32,23 @@ The player can continue playing as long as they have at least $100 to bet.
 3. Run the `app.py` file to start the game.
 
 ### Running the Game
+'''bash
 python app.py
 
-Dependencies
-Python 3.x
-graphics.py: A graphics library for Python. Make sure to have it in your project directory.
-Additional custom classes (Button, CButton, VCard, Deck) should also be in the project directory.
-How to Play
-Start the Game: Run app.py to start the game. The main window will open, displaying the cards and buttons for betting, holding, and swapping.
-Placing a Bet: Click on one of the chip buttons to bet an amount. The available chips are $100, $200, $500, and $1000.
-Hold or Bet: After placing a bet, you can click on the Hold button to stop betting or continue to add more.
-Swap Cards: Click on the cards you wish to swap, and then press the Swap button to get new cards.
-Winning or Losing: The game will calculate the hand result and update your total amount. You can continue playing until your total falls below $100.
-Ending the Game: If your total reaches $0, you will be kicked out of the casino, and the game will end.
-Folder Structure
-The program requires a folder named images in the same directory as the script, containing all the images required for the game (e.g., card backs, chips). The structure should look like this:
+## Dependencies
+1. Python 3.x
+2. graphics.py: A graphics library for Python. Make sure to have it in your project directory.
+3. Additional custom classes (Button, CButton, VCard, Deck) should also be in the project directory.
 
+## How to Play
+1. Start the Game: Run app.py to start the game. The main window will open, displaying the cards and buttons for betting, holding, and swapping.
+2. Placing a Bet: Click on one of the chip buttons to bet an amount. The available chips are $100, $200, $500, and $1000.
+3. Hold or Bet: After placing a bet, you can click on the Hold button to stop betting or continue to add more.
+4. Swap Cards: Click on the cards you wish to swap, and then press the Swap button to get new cards.
+5. Winning or Losing: The game will calculate the hand result and update your total amount. You can continue playing until your total falls below $100.
+6. Ending the Game: If your total reaches $0, you will be kicked out of the casino, and the game will end.
+
+## Folder Structure
 One_Player_Poker_Game/
 │
 ├── app.py
@@ -62,8 +63,6 @@ One_Player_Poker_Game/
     ├── Chips.gif
     └── (Other card images)
 
-
-Credits
-Author: Alexander Harshman
-Date: 4/28/2023
-This project was developed as a simple and interactive way to play a single-player poker game with graphical representation. Special thanks to the creators of the graphics.py library for providing a simple tool to create GUI applications in Python.
+## Credits
+1. Author: Alexander Harshman
+2. Date: 12/10/2021
